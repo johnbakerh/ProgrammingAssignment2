@@ -42,11 +42,6 @@ cacheSolve <- function(x, ...) {
   i
 }
 
-#In order to test this, I created a matrix with matrix()function,and try to compue the inverse from the cache list and change the call matrix to the inverse and compute. 
-
-B <- matrix(c(1:12), nrow = 4, ncol = 3, byrow = TRUE, dimnames = list(c("A", "B", "C", "D"),c("I", "II", "III")))
-B
-
 
 ##*MakeCacheMatrix2... Below you can find a section Function that integrates the solve() into the overall function instead of having to write two seperate functions and can be used to express better the workability of the function(). There is also attached below how this can be used.
 
