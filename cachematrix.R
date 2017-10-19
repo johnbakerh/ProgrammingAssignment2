@@ -27,6 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #4. Get the value of the inverse
 
 #Function Number2 (cacheSolve)
+## Write a short comment describing this function
 ## This function will return a matrix that is the inverse of 'x'## where x will consist of an output of makeCacheMatrix() and the return being an inverse of the original matrix input to makeCacheMatrix(). This function takes in any invertible matrix, and also sets the value of the inverse in the cache via the setinverse fnction, for which then cacheSolve will retrieve the inverse from the cache. Basically if you need to just invert a matrix, solve is the function you have to use in this case.
 
 
@@ -43,7 +44,8 @@ cacheSolve <- function(x, ...) {
 }
 
 
-##*MakeCacheMatrix2... Below you can find a section Function that integrates the solve() into the overall function instead of having to write two seperate functions and can be used to express better the workability of the function(). There is also attached below how this can be used.
+##Addiontional Function (EXTRA)
+##MakeCacheMatrix2... Below you can find a section Function that integrates the solve() into the overall function instead of having to write two seperate functions and can be used to express better the workability of the function(). There is also attached below how this can be used.
 
 makeCacheMatrix2 <- function(x = matrix()) {
   inv <- NULL
